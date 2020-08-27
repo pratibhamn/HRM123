@@ -39,6 +39,7 @@ public class TestScripts extends BaseTest{
 		p.clickEmpList();
 		GenericUtils.sortListBox(driver.findElement(By.xpath("//select[@id='empsearch_job_title']")));
 		Reporter.log("hello",true);
+		Reporter.log("Welcome to git",true);
 	}
 
 }
